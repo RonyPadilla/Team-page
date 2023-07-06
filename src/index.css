@@ -12,9 +12,39 @@ h1 {
   line-height: 1.1;
 }
 
-.info-main{
+img {
+  width: 15.6vw;
+  height: 42.8vh;
+}
+
+.header-info {
   display: flex;
-  gap: 10px;
+}
+
+.info-main {
+  background-color: #adbbc6;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Inicialmente, 3 columnas */
+}
+
+
+.img-text-info {
+  display: flex;
+  align-items: start;
+  min-width: 2px;
+  max-width: 2px;
+
+}
+
+.p-info {
+  writing-mode: vertical-rl;
+}
+
+.footer-credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: light) {
