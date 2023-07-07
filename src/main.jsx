@@ -5,7 +5,9 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <header className="header-info">
-      <h1>The creative crew</h1>
+      <div>
+        <h1>The creative crew</h1>
+      </div>
       <div>
         <h2>Who we are</h2>
         <p>
@@ -15,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       </div>
     </header>
     <main className="info-main">
-      <div className="div-person-1">
+      <div className="div-person">
         <div className="img-text-info">
           <img
             className="img-person-1"
@@ -27,7 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <h2>Bill Mahoney</h2>
       </div>
-      <div className="div-person-2">
+      <div className="div-person-half">
         <div className="img-text-info">
           <img
             className="img-person-2"
@@ -39,7 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <h2>Saba Cabrera</h2>
       </div>
-      <div className="div-person-3">
+      <div className="div-person">
         <div className="img-text-info">
           <img
             className="img-person-3"
@@ -51,7 +53,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <h2>Shae Le</h2>
       </div>
-      <div className="div-person-4">
+      <div className="div-person">
         <div className="img-text-info">
           <img
             className="img-person-4"
@@ -63,7 +65,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <h2>Skylah Lu</h2>
       </div>
-      <div className="div-person-5">
+      <div className="div-person-half">
         <div className="img-text-info">
           <img
             className="img-person-5"
@@ -75,7 +77,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <h2>Griff Richards</h2>
       </div>
-      <div className="div-person-6">
+      <div className="div-person">
         <div className="img-text-info">
           <img
             className="img-person-6"
