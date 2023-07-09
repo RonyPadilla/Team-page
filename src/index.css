@@ -1,5 +1,4 @@
 a {
-  font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
@@ -10,6 +9,7 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: PT Serif;
 }
 
 img {
@@ -17,17 +17,42 @@ img {
   height: 42.8vh;
 }
 
-.header-info {
+p {
+  font-family: Poppins;
+}
+
+.h2-title {
+  font-size:18px;
+  font-family: Poppins;
+}
+
+.p-title{
+  width: 439px;
+  margin-right: 10vw;
+}
+
+.header-title {
   display: flex;
+  gap: 10vw;
 }
 
 .info-main {
-  background-color: #adbbc6;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
 }
 
+.div-person:nth-child(2) {
+margin-top: 15vh;
+}
+
+.div-person:nth-child(5) {
+  margin-top: 15vh;
+}
+
+.div-person{
+  margin: 1vw;
+}
 
 .img-text-info {
   display: flex;
@@ -42,6 +67,7 @@ img {
 }
 
 .footer-credits {
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,16 +75,34 @@ img {
 
 @media (max-width: 700px) {
   :root {
-    color: #213547;
+    color: #000000;
     background-color: #ffffff;
   }
   *{
-    background-color: #213547;
+    background-color: #6ca1d0;
   }
   .info-main {
     background-color: #adbbc6;
   
+    margin: 5vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Inicialmente, 3 columnas */
+  }
+
+  
+.div-person:nth-child(2) {
+  margin-top: 15vh;
+  }
+  .div-person:nth-child(4) {
+    margin-top: 15vh;
+  }
+  .div-person:nth-child(5) {
+    margin-top: 0vh;
+  }
+  .div-person:nth-child(6) {
+    margin-top: 15vh;
+  }
+  .div-person{
+    margin: 1vw;
   }
 }
