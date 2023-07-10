@@ -5,7 +5,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <header className="header-title">
-        <h1 className="h1-title">The creative crew</h1>
+      <h1 className="h1-title">The creative crew</h1>
       <div>
         <h2 className="h2-title">Who we are</h2>
         <p className="p-title">
@@ -86,11 +86,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </div>
         <h2>Stan John</h2>
       </div>
-
     </main>
     <footer className="footer-credits">
       <p>
-        created by - <a href="https://github.com/RonyPadilla">username</a> -
+        created by - <a href="https://github.com/RonyPadilla">RonyPadilla</a> -
         devChallenges.io
       </p>
     </footer>

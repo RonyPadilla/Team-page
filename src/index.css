@@ -22,11 +22,11 @@ p {
 }
 
 .h2-title {
-  font-size:18px;
+  font-size: 18px;
   font-family: Poppins;
 }
 
-.p-title{
+.p-title {
   width: 439px;
   margin-right: 10vw;
 }
@@ -37,20 +37,19 @@ p {
 }
 
 .info-main {
-
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .div-person:nth-child(2) {
-margin-top: 15vh;
+  margin-top: 18vh;
 }
 
 .div-person:nth-child(5) {
-  margin-top: 15vh;
+  margin-top: 18vh;
 }
 
-.div-person{
+.div-person {
   margin: 1vw;
 }
 
@@ -59,7 +58,6 @@ margin-top: 15vh;
   align-items: start;
   min-width: 2px;
   max-width: 2px;
-
 }
 
 .p-info {
@@ -76,33 +74,112 @@ margin-top: 15vh;
 @media (max-width: 700px) {
   :root {
     color: #000000;
-    background-color: #ffffff;
-  }
-  *{
-    background-color: #6ca1d0;
-  }
-  .info-main {
-    background-color: #adbbc6;
-  
-    margin: 5vw;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Inicialmente, 3 columnas */
+    margin: 2vw;
+    margin-top: 5vh;
   }
 
-  
-.div-person:nth-child(2) {
-  margin-top: 15vh;
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    font-family: PT Serif;
+  }
+
+  img {
+    width: 100vw;
+    height: 25vh;
+  }
+
+  p {
+    font-family: Poppins;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .h1-title {
+    font-size: 36px;
+  }
+
+  .h2-title {
+    font-size: 18px;
+    font-family: Poppins;
+  }
+
+  .p-title {
+    width: 333px;
+    margin-right: 10vw;
+    font-size: 14px;
+  }
+
+  .header-title {
+    margin-left: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0vw;
+  }
+
+  .info-main {
+    margin-left: 2vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .div-person:nth-child(1) {
+    width: 30vw;
+    height: 35vh;
+  }
+  .div-person:nth-child(2) {
+    margin-top: 15vh;
+    margin-left: 0vw;
+    width: 30vw;
+    height: 35vh;
+  }
+  .div-person:nth-child(3) {
+    width: 30vw;
+    height: 35vh;
   }
   .div-person:nth-child(4) {
     margin-top: 15vh;
+    margin-left: 0vw;
+    width: 30vw;
+    height: 35vh;
   }
   .div-person:nth-child(5) {
     margin-top: 0vh;
+    margin-right: 0vw;
+
+    width: 30vw;
+    height: 35vh;
   }
   .div-person:nth-child(6) {
     margin-top: 15vh;
+    margin-left: 0vw;
+    width: 30vw;
+    height: 35vh;
   }
-  .div-person{
+
+  .div-person {
     margin: 1vw;
+  }
+
+  .img-text-info {
+    display: flex;
+    align-items: start;
+    min-width: 2px;
+    max-width: 2px;
+  }
+
+  .p-info {
+    writing-mode: vertical-rl;
+    font-size: 10px;
+  }
+
+  .footer-credits {
+    margin-top: 10vh;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
